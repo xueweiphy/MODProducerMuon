@@ -14,10 +14,40 @@ Currently, the following information are stored:
 
 ## Usage Instruction
 
--  create the working area:
+-  Create the working area:
+
    ```
    cmsrel CMSSW_5_3_32
+
    cd ./CMSSW_5_3_32/src
+
    cmsenv
+   
+   git clone https://github.com/xueweiphy/MODProducerMuon.git
+   
+   cd MODProducerMuon
+
+   scram b
+
    ```
+
+-  Create links to the condition databases
+
+   ```
+   ln -sf /cvmfs/cms-opendata-conddb.cern.ch/FT_53_LV5_AN1_RUNA FT_53_LV5_AN1 
+
+   ln -sf /cvmfs/cms-opendata-conddb.cern.ch/FT_53_LV5_AN1_RUNA.db FT_53_LV5_AN1_RUNA.db
+
+   ln -sf /cvmfs/cms-opendata-conddb.cern.ch/START53_LV6A1 START53_LV6A1
+
+   ln -sf /cvmfs/cms-opendata-conddb.cern.ch/START53_LV6A1.db START53_LV6A1.db
+
+   ```
+
+
+
+
+
+
+
 
