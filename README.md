@@ -39,6 +39,24 @@ Currently, the following information are stored:
    ln -sf /cvmfs/cms-opendata-conddb.cern.ch/START53_LV6A1.db START53_LV6A1.db
    ```
 
+- Run 
+
+   ```
+   ./run_producers_2011_saveless.sh
+   ```
+
+### Workflow
+
+1.  Download some of the ROOT files and arrange them in the same directory structure
+   as they live on the CMS servers
+
+2. Create a registry that maps each event and run number to a certain ROOT file.
+
+3. Run the Producer on those AOD files. This reads the download directory and 
+   processes only the files in there. This produces N MOD files.
+
+
+
 
 
 
