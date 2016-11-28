@@ -23,7 +23,7 @@ Currently, the following information are stored:
 
    cmsenv
    
-   git clone https://github.com/xueweiphy/MODProducerMuon.git
+   git clone https://github.com/xueweiphy/MODProducerMuon.git CMSOpenData/MODProducerMuon
    
    cd MODProducerMuon
 
